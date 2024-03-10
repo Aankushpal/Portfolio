@@ -92,7 +92,6 @@ gsap.to("#page1", {
   scrollTrigger: {
     trigger: "#page1",
     scroller: "#main",
-    // markers: true,
     start: "top -15%",
     end: "top -100%",
     scrub: 3
@@ -107,7 +106,6 @@ gsap.from("#page2", {
   scrollTrigger: {
     trigger: "#page2",
     scroller: "#main",
-    // markers: true,
     start: "top 100%",
     end: "top top",
     scrub: 3,
@@ -121,7 +119,6 @@ gsap.to("#page2", {
   scrollTrigger: {
     trigger: "#page2",
     scroller: "#main",
-    // markers: true,
     start: "top -60%",
     end: "top -100%",
     scrub: 3
@@ -135,7 +132,6 @@ gsap.from("#page2 #h1 h1", {
   scrollTrigger: {
     trigger: "#page2",
     scroller: "#main",
-    // markers: true,
     start: "top 65%",
     end: "top 64%",
     scrub: 3
@@ -149,7 +145,6 @@ gsap.from("#page2 #span #man1", {
   scrollTrigger: {
     trigger: "#page2",
     scroller: "#main",
-    // markers: true,
     start: "top 30%",
     end: "top 25%",
     scrub: 3
@@ -163,7 +158,6 @@ gsap.from("#page2 #span h1", {
   scrollTrigger: {
     trigger: "#page2",
     scroller: "#main",
-    // markers: true,
     start: "top 20%",
     end: "top 15%",
     scrub: 3
@@ -177,7 +171,6 @@ gsap.to("#page3", {
   scrollTrigger: {
     trigger: "#page3",
     scroller: "#main",
-    // markers: true,
     start: "top -300%",
     end: "top -400%",
     scrub: 3
@@ -192,7 +185,6 @@ gsap.to("#page3 svg", {
     start:"top 50%",
     end: "top -60%",
     scrub: 2,
-    // markers: true
   }
 })
 
@@ -205,7 +197,6 @@ gsap.from("#page3 #h1 h1", {
       start:"top 80%",
       end: "top 75%",
       scrub: 2,
-      // markers: true
     }
 })
 
@@ -218,7 +209,6 @@ gsap.from("#page3 #span h1", {
     start:"top 55%",
     end: "top 50%",
     scrub: 2,
-    // markers: true
   }
 })
 
@@ -230,7 +220,6 @@ gsap.to("#page4 svg", {
     start:"top 70%",
     end: "top -40%",
     scrub: 2,
-    // markers: true
   }
 })
 
@@ -243,7 +232,6 @@ gsap.from("#page4 #h1 h1", {
     start:"top 80%",
     end: "top 75%",
     scrub: 2,
-    // markers: true
   }
 })
 
@@ -256,7 +244,6 @@ scrollTrigger:{
   start:"top 55%",
   end: "top 50%",
   scrub: 2,
-  // markers: true
 }
 })
 
@@ -269,7 +256,6 @@ gsap.from("#page5 #h1 h1", {
     start:"top 80%",
     end: "top 75%",
     scrub: 2,
-    // markers: true
   }
 })
 
@@ -282,7 +268,6 @@ scrollTrigger:{
   start:"top 55%",
   end: "top 50%",
   scrub: 2,
-  // markers: true
 }
 })
 
