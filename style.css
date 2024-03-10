@@ -1,0 +1,721 @@
+@font-face {
+    font-family: ABCD;
+    src: url(./-F63fjptAgt5VM-kVkqdyU8n1i8q1w.woff2);
+}
+
+@font-face {
+    font-family: BOLD;
+    src: url(./almarena-display-bold-webfont.woff2);
+}
+
+@font-face {
+    font-family: Regular;
+    src: url(./almarena-display-regular-webfont.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: ease .1s;
+}
+
+*::selection{
+    background-color: #DAD6CA;
+    color: #111111;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    transition: all ease .1s;
+}
+
+#main{
+  position: relative;
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    background-color: #DAD6CA;
+    font-family: regular;
+    font-weight: 900;
+    position: relative;
+    padding: 2vw;
+    overflow: hidden;
+}
+
+#page1 h1{
+    font-size: 12vw;
+    text-align: center;
+    letter-spacing: .5vw;
+}
+
+#page1 #h1{
+    width: fit-content;
+    height: 13vw;
+    margin-left: 25%;
+    overflow: hidden;
+}
+
+#page1 #h2{
+    width: fit-content;
+    height: 13vw;
+    overflow: hidden;
+}
+
+#page1 h2{
+    font-size: 12vw;
+    line-height: 12vw;
+    letter-spacing: .5vw;
+    position: relative;
+}
+
+#page1 #h2 h2 sup{
+    font-size: 1vw;
+    letter-spacing: .4px;
+    color: #FB6F32;
+    transform: rotateY(30deg);
+    font-weight: 100;
+}
+
+#page1 #h2 h2 sup::before{
+    content: "";
+    animation-name: anim1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes anim1 {
+    0%{
+        content: "(CSS)";
+        opacity: 1;
+    }
+    10%{
+        content: "(JavaScript)";
+        opacity: 1;
+    }   
+    20%{
+        content: "(NodeJS)";
+        opacity: 1;
+
+    }
+    30%{
+        content: "(MongoDB)";
+        opacity: 1;
+
+    }
+    40%{
+        content: "(ExpressJS)";
+        opacity: 1;
+
+    }
+    50%{
+        content: "(JQuery)";
+        opacity: 1;
+
+    }
+    60%{
+        content: "(Java)";
+        opacity: 1;
+
+    }
+    70%{
+        content: "(ReactJS)";
+        opacity: 1;
+
+    }
+    80%{
+        content: "(MySql)";
+        opacity: 1;
+
+    }
+    90%{
+        content: "(Socket.io)";
+        opacity: 1;
+
+    }
+    95%{
+        content: "(HTML)";
+        opacity: 1;
+
+    }
+}
+
+#page1 #span{
+    width: fit-content;
+    height: 13vw;
+    overflow: hidden;
+    margin-left: 35vw;
+}
+
+#page1>#img{
+    width: 33vw;
+    height: 25vw;
+    position: absolute;
+    top: 45%;
+    right: 35vw;
+    overflow: hidden;
+    transform-origin: center;
+    perspective: 100vw;
+}
+
+#page1>#img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: contrast(1.15);
+    transform: rotateX(10deg);
+}
+
+#page2{
+    width: 100%;
+    height: 120vh;
+    overflow: hidden;
+    position: relative;
+    background-color: #111111;
+    color: #DAD6CA;
+}
+
+#page2 #nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 3vw;
+    width: 100%;
+    height: 5vh;
+    font-family: sans-serif;
+    font-weight: 100;
+    border-bottom: .1px solid #dad6ca5b;
+}
+
+#page2 #nav #in2{
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    gap: 2vw;
+}
+
+#page2 #nav #in2 a{
+    border: 1px solid #dad6cac3;
+    padding: .5vw 2vw;
+    border-radius: 1.5vw;
+    transition: all ease .1s;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    color: #DAD6CA;
+}
+
+#page2 #nav #in2 a:hover{
+    color: #111111;
+    z-index: 9;
+}
+
+#page2 #nav #in2 a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius:  90% 90% 0% 0%;
+    width: 100%;  
+    height: 0%;
+    background-color: #DAD6CA;
+    transition: all ease 1s;
+    z-index: -9;
+}
+  
+#page2 #nav #in2 a:hover::before{
+    height: 200%;
+}
+
+#page2 #center{
+    width: 100%;
+    height: 150vh;
+    /* background-color: rgb(128, 29, 29); */
+    padding: 2vw;
+    overflow: hidden;
+    position: relative;
+}
+
+#page2  #h1{
+    width: fit-content;
+    height: 13vw;
+    overflow: hidden;
+}
+
+#page2 #center #h1 h1{
+    font-size: 12vw;
+    font-family: regular;
+    letter-spacing: .5vw;
+    text-transform: uppercase;
+    line-height: 11vw;
+    margin-bottom: 5vh;
+}
+
+
+#page2  #span{
+    width: fit-content;
+    height: 13vw;
+    overflow: hidden;
+    margin-left: 25%;
+    position: relative;
+}
+
+#page2  #span h1{
+    font-size: 12vw;
+    font-family: regular;
+    letter-spacing: .5vw;
+    text-transform: uppercase;
+    line-height: 11vw;
+}
+
+#page2 #man1{
+    position: absolute;
+   top: 16%;
+   left: 28.5%;
+}
+
+#page2 #center #bio{
+    width: 85%;
+    height: fit-content;
+    display: flex;
+    align-items: top;
+    gap: 18vw;
+    font-family: regular;
+    margin-top: 10vw;
+}
+
+#bio #no{
+    display: flex;
+    gap: 3vw;
+}
+
+#bio #no p{
+    height: fit-content;
+    padding: .1vw .4vw;
+    border-radius: 50%;
+    border: 1px solid #DAD6CA;
+    font-size: .7vw;
+}
+
+#bio #no h5{
+    font-weight: 100;
+    font-size: 1.3vw;
+}
+
+#bio #dets p{
+    font-size: 1.5vw;
+    text-align: justify;
+    letter-spacing: .2px;
+}
+
+#page3{
+    width: 100%;
+    min-height: 200vh;
+    background-color: #111111;
+    color: #DAD6CA;
+    font-family: regular;
+    position: relative;
+    padding: 2vw;
+}
+
+#page3 #h1{
+    width: fit-content;
+    height: 14vw;
+    overflow: hidden;
+    position: relative;
+}
+
+#page3 #h1 h1{
+    font-size: 12.5vw;
+    line-height: 12vw;
+    margin-left: 25vw;
+    letter-spacing: .2vw;
+}
+
+#page3 #span{
+    width: fit-content;
+    height: 14vw;
+    overflow: hidden;
+    position: relative;
+}
+
+#page3  #span h1{
+    font-size: 12.5vw;
+    line-height: 12vw;
+    letter-spacing: .2vw;
+}
+
+#page3 svg{
+    position: absolute;
+    right: 20vw;
+    top: 16vw;
+}
+
+#page3 #prjct{
+    margin-top: 10vw;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    font-family: BOLD;
+    text-transform: uppercase;
+}
+
+#page3 #prjct .pr{
+    width: 50vw;
+    height: 30vw;
+    overflow: hidden;
+    border-radius: .5vw;    
+    position: relative;
+}
+
+#page3 .pr video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#page3 .pr .cursor{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    background-color: #111111;
+    color: #DAD6CA;
+    padding: 1px 3px 1px 10px;
+    border-radius: 4px;
+    opacity: 0;
+}
+
+#page3 #prjct .cursor h5{
+    font-size: 1vw;
+    font-weight: 100;
+    letter-spacing: .1vw;
+}
+
+#page3 #prjct .cursor i{
+    color: #FB6F32;
+    font-size: 2vw;
+}
+
+#page3 #pr1{
+    left: 50%;
+    transform: translate(-30%, 0%);
+    margin-bottom: 10vw;
+    margin-top: 10vw;
+    filter: blur(2px) grayscale(1);
+    scale: 1.25;
+    transition: all ease .4s;
+}
+
+#page3 #pr1:hover{
+    filter: none;
+    scale: 1.27;
+}
+
+#page3 #pr2{
+    left: 8%;
+    margin-bottom: 10vw;
+    margin-top: 15vw;
+    filter: blur(2px) grayscale(1);
+    transition: all ease .5s;
+}
+
+#page3 #pr2:hover{
+    filter: none;
+    scale: 1.02;
+}
+
+#page3 #pr3{
+    left: 50%;
+    transform: translate(-30%, 0%);
+    margin-top: 10vw;
+    filter: blur(2px) grayscale(1);
+    transition: all ease .5s;
+}
+
+#page3 #pr3:hover{
+    filter: none;
+    scale: 1.02;
+}
+ 
+#page4{
+    width: 100%;
+    min-height: 200vh;
+    background-color: #111111;
+    color: #DAD6CA;
+    font-family: regular;
+    padding: 2vw;
+    position: relative;
+    overflow: hidden;
+}
+
+#page4 #h1{
+    width: fit-content;
+    height: 14vw;
+    overflow: hidden;
+    position: relative;
+}
+
+#page4 #h1 h1{
+    font-size: 12.5vw;
+    line-height: 12vw;
+    margin-left: 25vw;
+    letter-spacing: .2vw;
+}
+
+#page4 #span{
+    width: fit-content;
+    height: 14vw;
+    overflow: hidden;
+    position: relative;
+}
+
+#page4  #span h1{
+    font-size: 12.5vw;
+    line-height: 12vw;
+    letter-spacing: .2vw;
+}
+
+#page4 svg{
+    position: absolute;
+    right: 20vw;
+    top: 18vw;
+}
+
+#page4 #proj1{
+    margin: 10vw 0 10vw 10vw;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 50vw;
+    font-family: bold;
+    position: relative;
+}
+
+#page4 #proj1 #in1{
+    position: absolute;
+    top: .5%;
+    z-index: 99;
+    color: #DAD6CA;
+    width: 70%;
+    mix-blend-mode: difference;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    letter-spacing: .2vw;
+}
+
+#page4 #proj1 #vid{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    filter: blur(2px) grayscale(1);
+    transition: all ease .5s; 
+}
+
+#page4 #proj1 #vid:hover{
+    filter: none;
+    scale: 1.02;
+}
+ 
+#page4 #proj1 #vid video{
+    width: 100%;
+    height: 100%;
+}
+
+#page4 #proj2{
+    margin: 10vw 0 0vw 20vw;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    height: 50vw;
+    font-family: bold;
+    position: relative;
+}
+
+#page4 #proj2 #in2{
+    position: absolute;
+    top: 5%;
+    z-index: 99;
+    color: #DAD6CA;
+    width: 70%;
+    mix-blend-mode: difference;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: uppercase;
+    letter-spacing: .2vw;
+}
+
+#page4 #proj2 #vid{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    filter: blur(2px) grayscale(1);
+    transition: all ease .5s;
+}
+
+#page4 #proj2 #vid:hover{
+    filter: none;
+    scale: 1.02;
+}
+ 
+#page4 #proj2 #vid video{
+    width: 100%;
+    height: 100%;
+}
+
+#page4 #cap{
+    margin-top: -5vw;
+}
+
+#page4 #cap h5{
+    font-weight: 100;
+    font-size: 1.2vw;
+    color: rgba(240, 248, 255, 0.491);
+    letter-spacing: .1vw;
+}
+
+#page4 #vid .cursor{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    background-color: #111111;
+    color: #DAD6CA;
+    padding: 1px 3px 1px 10px;
+    border-radius: 4px;
+    opacity: 0;
+}
+
+#page4 #vid .cursor h5{
+    font-size: 1vw;
+    font-weight: 100;
+    letter-spacing: .1vw;
+}
+
+#page4 #vid .cursor i{
+    color: #FB6F32;
+    font-size: 2vw;
+}
+
+
+#page5{
+    width: 100%;
+    height: 100vh;
+    background-color: #111111;
+    color: #DAD6CA;
+    font-family: bold;
+    position: relative;
+    overflow: hidden;
+}
+
+#page5 #h1{
+    width: fit-content;
+    height: 14vw;
+    overflow: hidden;
+    position: relative;
+    margin-left: 2vw;
+}
+
+#page5 #h1 h1{
+    font-size: 12.5vw;
+    line-height: 12vw;
+    letter-spacing: .2vw;
+}
+
+#page5 #h2{
+    margin-left: 32vw;
+    width: fit-content;
+    height: 14vw;
+    overflow: hidden;
+    position: relative;
+}
+
+#page5  #h2 h2{
+    font-size: 12.5vw;
+    line-height: 12vw;
+    letter-spacing: .2vw;
+}
+
+#page5>h1{
+    font-size: 3vw;
+    margin-left: 2vw;
+    margin-top: 3vw;
+}
+
+#page5 #nav{
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 6vw;
+    margin-left: 60%;
+    height: 12vh;
+    /* background-color: rosybrown; */
+}
+
+#page5 #nav #in1 h5{
+    color: rgba(240, 248, 255, 0.414);
+    font-weight: 100;
+    font-size: 1.2vw;
+    font-family: regular;
+    letter-spacing: .1vw;
+}
+
+#page5 #nav #in2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3vw;
+}
+
+#page5 #nav .in{
+    display: flex;
+    align-items: center;
+    font-family: regular;
+    text-decoration: none;
+    color: #DAD6CA;
+    position: relative;
+}
+
+#page5 #nav .in h5{
+    font-size: 2vw;
+    position: relative;
+    font-weight: 100;
+}
+
+#page5 #nav .in::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .1vw;
+    width: 0%;
+    background-color: #DAD6CA;
+    transition: all ease .2s;
+}
+
+#page5 #nav .in:hover::after{
+    width: 90%;
+}
+
+#page5 #nav .in i{
+    font-size: 3vw;
+    font-weight: 100;
+}
